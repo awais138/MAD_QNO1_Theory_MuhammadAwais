@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E7E3"
+    android:backgroundTint="#03A9F4"
+    android:orientation="vertical"
+    android:padding="55dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:text="Birth Date:"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calage"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:backgroundTint="#E91E63"
+        android:text="Calculate Age" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="215dp"
+        android:text="Age in Days"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>
